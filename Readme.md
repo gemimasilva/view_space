@@ -68,6 +68,8 @@ python manage.py collectstatic
 
 ="{% static '/ e ao fechar devemos fazer ' %}"
 
+{% load static %}(ajuda a pagina a saber que vai carregar arquivos estáticos)
+
 
 como subir um projeto no git(
 git add.
