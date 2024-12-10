@@ -70,6 +70,7 @@ python manage.py collectstatic
 
 {% load static %}(ajuda a pagina a saber que vai carregar arquivos estáticos)
 
+<a href="{% url 'imagem' %}">
 
 como subir um projeto no git(
 git add.
