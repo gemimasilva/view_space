@@ -78,5 +78,11 @@ git add.
  git push origin master
 )
 
+{% extends 'galeria/base.html' %}
+{% load static %}  (carregamento de código estátito)
 
 
+(principio e final do block content)
+
+(criamos um arquivo isolaso chamado footer.html para no caso de precisrmos fazer algumas alteraçaões não precisarmos fazer em todos os arquivos,fazemos apenas uma única vez pelo footer) 
+ {% include 'galeria/partials/_footer.html' %}
